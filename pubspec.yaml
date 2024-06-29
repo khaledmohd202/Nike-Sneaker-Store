@@ -1,0 +1,44 @@
+name: nike
+description: A new Flutter project.
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.1.0 <4.0.0'
+
+dependencies:
+  cupertino_icons: ^1.0.2
+  dio: ^5.4.3+1
+  flutter:
+    sdk: flutter
+  flutter_screenutil: ^5.9.3
+  svg_flutter: ^0.0.1
+
+dev_dependencies:
+  flutter_lints: ^2.0.0
+  flutter_test:
+    sdk: flutter
+
+flutter:
+
+  uses-material-design: true
+
+  assets:
+    - assets/images/
+    - assets/icons/
+
+  # example:
+  fonts:
+    - family: Poppins
+      fonts:
+        - asset: assets/fonts/Poppins-Regular.ttf
+
+    - family: Raleway-Bold
+      fonts:
+        - asset: assets/fonts/Raleway-Bold.ttf
+
+    - family: Raleway-SemiBold
+      fonts:
+        - asset: assets/fonts/Raleway-SemiBold.ttf
+  #       - asset: fonts/TrajanPro_Bold.ttf
+  #         weight: 700
