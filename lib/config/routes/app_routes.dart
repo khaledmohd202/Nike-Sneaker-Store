@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:nike/core/utils/const/app_constants.dart';
 import 'package:nike/features/authentication/presentation/pages/login_page.dart';
+import 'package:nike/features/authentication/presentation/pages/otp_page.dart';
+import 'package:nike/features/authentication/presentation/pages/password_recovery_page.dart';
 import 'package:nike/features/authentication/presentation/pages/register_page.dart';
 import 'package:nike/features/home/presentation/pages/home_page.dart';
 import 'package:nike/features/onboarding/presentation/pages/onboarding_page.dart';
@@ -24,6 +26,14 @@ class AppRoutes {
       case AppConstants.registerRoute:
         return MaterialPageRoute(
           builder: (_) => const RegisterPage(),
+        );
+      case AppConstants.passwordRecoveryRoute:
+        return MaterialPageRoute(
+          builder: (_) => const PasswordRecoveryPage(),
+        );
+      case AppConstants.otpPageRoute:
+        return MaterialPageRoute(
+          builder: (_) => OTPPage(),
         );
       case AppConstants.homeRoute:
         return MaterialPageRoute(

@@ -15,4 +15,5 @@ class AppColors {
   static const Color infoColor = Color(0xFF2196F3);
   static const Color lightGreyColor = Color(0xFFE5E5E5);
   static const Color dotColor = Color(0xFFFFB21A);
+  static const Color textFormFieldColor = Color(0xFFF7F7F9);
 }

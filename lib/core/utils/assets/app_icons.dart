@@ -8,4 +8,6 @@ class AppIcons {
   static const String shoes_1Icon = '$_iconPath/shoes-1.svg';
   static const String shoes_2Icon = '$_iconPath/shoes-2.svg';
   static const String shoes_3Icon = '$_iconPath/shoes-3.svg';
+  static const String eyeIcon = '$_iconPath/Eye.svg';
+  static const String googleIcon = '$_iconPath/google.svg';
 }
